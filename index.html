@@ -3,40 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aurum Lab - Home</title>
+    <title>aurum Lab - Home</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+
+    <!-- CABEÇALHO -->
     <header class="cabecalho">
         <a href="#" class="barra-topo">
             <img src="assets/img/icone-logo.svg" alt="Logotipo Aurum Lab" class="logo">
         </a>
-        <nav class="navegacao">
+        <nav class="navegacao"> <!--colocar links de navegação-->
             <ul class="lista-menu">
                 <li><a href="" class="link-ativo">Sobre</a></li>
-                <li><a href="">Dashboard</a></li>
+                <li><a href="" class="link-ativo">Dashboard</a></li>
                 <li>
                     <a href="" class="item-login">
-                        <img class="cadeado" src="assets/icon/lock.svg" alt="">
-                        Login
+                    <img class="cadeado" src="assets/icon/lock.svg" alt="">  
+                    Login 
                     </a>
                 </li>
             </ul>
         </nav>
     </header>
+
+    <!-- CONTEÚDO DA PÁGINA -->
     <main>
         <!-- SEÇÃO BANNER -->
         <section class="secao-banner">
             <div class="textos-banner">
-                <h1 class="titulo-banner-principal">Bem vindo(a) ao Aurum Lab</h1>
+                <h1 class="titulo-banner-principal">Bem-vindo(a) ao Aurum Lab</h1>
                 <p class="subtitulo-banner">Aqui você pode cadastrar, visualizar e gerenciar todos os dispositivos tecnológicos da escola.</p>
             </div>
         </section>
+
         <!-- SEÇÃO SERVIÇOS -->
-        <section class="secao-servicos">
+         <section class="secao-servicos">
             <div class="cabecalho-secao">
                 <h2>Explore nossos serviços</h2>
-                <span class="linha-decorativa"></span> 
+                <span class="linha-decorativa"></span><!--tag para estilizar elementos específicos, podendo ser dentro da mesma linha-->
             </div>
             <div class="grade-servicos">
                 <div class="cartao-servico">
@@ -55,11 +60,13 @@
                     <p class="descricao-cartao">Acompanhe o status geral dos dispositivos e visualize estatísticas.</p>
                 </div>
             </div>
-        </section>
-        <!-- SEÇÃO MONITORAMENTO -->
-         <section class="secao-monitoramento">
-            <h2 class="titulo-banner-meio">Monitore seus dispositivos em tempo real.</h2>
          </section>
+
+         <!-- SEÇÃO MONITORAMENTO -->
+         <section class="secao-monitoramento">
+                <h2 class="titulo-banner-meio">Monitore seus dispositivos em tempo real</h2>
+         </section>
+
          <!-- SEÇÃO COMO FUNCIONA -->
          <section class="secao-como-funciona">
             <div class="cabecalho-secao">
@@ -70,70 +77,65 @@
                 <div class="passo">
                     <span class="numero-passo">1</span>
                     <h3 class="titulo-passo">Login e acesso</h3>
-                    <p class="texto-passo">Autenticação segura com controle de acesso baseado em funções para administradores e</p>
+                    <p class="texto-passo">Autenticação segura com controle de acesso baseado em funções para administradores e usuários.</p>
                 </div>
                 <div class="passo">
                     <span class="numero-passo">2</span>
                     <h3 class="titulo-passo">Gerenciar recursos</h3>
-                    <p class="texto-passo">Crie, atualize e exclua registros de dispositivos e usuários com operações CRUD abrangentes.</p>
+                    <p class="texto-passo">Crie, atualize e exclua registros de dipositivos e usuários com operações CRUD abrangentes.</p>
                 </div>
                 <div class="passo">
                     <span class="numero-passo">3</span>
                     <h3 class="titulo-passo">Monitorar e analisar</h3>
-                    <p class="texto-passo">Acompanhe o status do dispositivo, o consumo e gere relatórios detalhados por meio do painel.</p>
+                    <p class="texto-passo">Acomapnhe o status do dispositivo, o consumo e gere relatórios detalhados por meio do painel.</p>
                 </div>
             </div>
          </section>
-         <!-- SEÇÃO AVALIAÇÕES -->
-          <section class="secao-avaliacoes">
+
+         <!-- SEÇÃO DEPOIMENTOS -->
+          <section class="secao-depoimentos">
             <div class="cabecalho-secao">
                 <h2 class="titulo-secao">O que nossos usuários dizem</h2>
                 <span class="linha-decorativa"></span>
             </div>
-            <div class="grade-avaliacao">
-                <div class="avaliacao">
-                    <div class="topo-avaliacao">
+            <div class="grade-depoimentos">
+                <div class="depoimento">
+                    <div class="topo-depoimento">
                         <img class="foto-usuario" src="assets/img/img-user1.png" alt="">
                         <div>
                             <h3 class="nome-usuario">Tânia Pinheiro</h3>
                             <p class="cargo-usuario">Administradora de TI</p>
                         </div>
                     </div>
-                    <p class="texto-avaliacao">
-                        "O Aurum Lab revolucionou a forma como gerenciamos a tecnologia da nossa escola. A interface é interativa e os recursos de geração de relatórios são excelentes."
-                    </p>
+                    <p class="texto-depoimento">"O Aurum Lab revolucionou a forma como gerenciamos a tecnologia da nossa escola. A interface é intuitiva e os recursos de geração de relatórios são execelentes."</p>
                 </div>
-                <div class="avaliacao">
-                    <div class="topo-avaliaco">
+                <div class="depoimento">
+                    <div class="topo-depoimento">
                         <img class="foto-usuario" src="assets/img/img-user2.png" alt="">
                         <div>
                             <h3 class="nome-usuario">Michel Costa</h3>
                             <p class="cargo-usuario">Diretor de Tecnologia</p>
                         </div>
                     </div>
-                    <p class="texto-avaliacao">
-                        "Os recursos de rastreamento de dispositivos e manutenção nos economizaram inúmeras horas. Altamente recomendado para instituições de ensino."
-
-                    </p>
+                    <p class="texto-depoimento">"Os recursos de rastreamento de dipositivos e manutenção nos economizaram inúmeras horas. Altamente recomendado para instituições de ensino."</p>
                 </div>
-                <div class="avaliacao">
-                    <div class="topo-avaliacao">
-                        <img class="foto-usuario" src="assets/img/img-user3.png" alt="">
+                <div class="depoimento">
+                    <div class="topo-depoimento">
+                        <img  class="foto-usuario" src="assets/img/img-user3.png" alt="">
                         <div>
-                            <h3 class="nome-usuario">Emily Rodríguez</h3>
-                            <p class="cargo-usuario">Diretora da escola</p>
+                            <h3 class="nome-usuario">Emilly Rodríguez</h3>
+                            <p class="cargo-usuario">Diretora de escola</p>
                         </div>
                     </div>
-                    <p class="texto-avaliacao">
-                        "Simples, poderoso e eficaz. O Aurum Lab nos dá visibilidade completa da nossa infraestrutura tecnológica."
-                    </p>
+                    <p class="texto-depoimento">"Simples, poderoso e eficaz. O Aurum Lab nos dá visibilidade completa da nossa infraestrutura tecnológica"</p>
                 </div>
             </div>
             <a href="" class="botao-primario">Comece agora</a>
           </section>
     </main>
+
     <!-- RODAPÉ -->
-     <footer class="rodape">
+    <footer class="rodape">
         <div class="rodape-conteudo">
             <a href="#">
                 <img src="assets/img/logo-horizontal.svg" alt="" class="logo-rodape">
@@ -149,12 +151,11 @@
             </nav>
         </div>
         <div class="final-rodape">
-            <div class="linha-divisoria">
-                <p class="direitos">
-                    Copyright © 2025 Aurum Lab | Todos os direitos reservados
-                </p>
-            </div>
+            <div class="linha-divisoria"></div>
+            <p class="direitos">
+                Copyright © 2025 Aurum Lab | Todos os direitos reservados
+            </p>
         </div>
-     </footer>
+    </footer>
 </body>
 </html>
