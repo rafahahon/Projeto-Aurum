@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,38 +8,50 @@
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/cadastro.css">
 </head>
+
 <body>
     <main class="container-cadastro">
         <!-- PARTE DO TOPO -->
-         <aside class="painel-topo">
-            <img class="logo-topo" src="assets/img/icone-logo.svg" alt="Logotipo Aurum Lab">
-            <h2 class="titulo-topo">Cadastro</h2>
-            <p class="descricao">Crie uma nova conta de usuário para o Aurum Lab</p>
-         </aside>
-
-    <section class="painel-baixo">
-        <form class="form-nome">
-            <label for="nome">Nome Completo</label>
-            <input type="text" id="nome" placeholder="seu nome" required>
-
-            <label for="email">E-mail</label>
-            <input type="email" id="email" placeholder="email@email.com" required>
-
-            <label for="senha">Senha:</label>
-            <input type="password" id="senha" placeholder="sua Senha" required>
-
-            <label for="confirmar-senha">Confirmar senha</label>
-            <div class="confirmar-senha">
-                <input type="password" id="confirmar-senha" placeholder="confirmar sua senha" required>
-                <span class="regras">A senha deve conter letras, números e caracteres especiais para maior segurança.</span>
+        <aside class="painel-topo">
+            <div class="texto-topo">
+                <h2 class="titulo-topo">Cadastro</h2>
+                <p class="descricao">Crie uma nova conta de usuário para o Aurum Lab</p>
             </div>
+            <div class="logo-topo">
+                <img src="assets/img/icone-logo.svg" alt="Logotipo Aurum Lab">
+            </div>
+        </aside>
 
+        <section class="painel-baixo">
+
+            <form class="form-nome">
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome" placeholder="seu nome" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="email@email.com" required>
+                </span>
+            </form>
+
+            <form class="form-senha">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" placeholder="sua senha" required>
+
+                <label for="confirmar-senha">Confirmar senha</label>
+                <input type="password" id="confirmar-senha" placeholder="confirmar sua senha" required>
+                <p class="regras">A senha deve conter letras, números e caracteres especiais para maior
+                    segurança.</p>
+
+            </form>
+        </section>
+
+        <section class="botoes">
             <button type="submit" class="botao-entrar">ENTRAR</button>
 
-            <a href="login.html">Voltar</a>
+            <a href="login.html" class="voltar">Voltar</a>
+        </section>
 
-        </form>
-    </section>
     </main>
 </body>
+
 </html>
