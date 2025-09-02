@@ -39,7 +39,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 30vw;
+    width: 30%;
     height: 30vh;
     gap: 16px;
     margin-top: 3%;
@@ -56,7 +56,7 @@ body {
 }
 
 .form-senha p {
-    font-size: 11px;
+    font-size: 0.7rem;
     font-weight: 400;
 }
 
@@ -70,7 +70,7 @@ input {
     border: 2px solid var(--borda);
     border-radius: 10px;
     font-size: 1rem;
-    width: 30vw;
+    width: 90%;
 }
 
 .botoes {
@@ -104,4 +104,43 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/*RESPONSIVIDADE - MEDIA QUERY*/
+
+@media (max-width: 750px) {
+
+    input {
+        font-size: 0.5rem;
+    }
+
+    .botoes {
+        padding: 70px;
+    }
+
+    .botao-entrar {
+        width: 70%;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .painel-topo-descricao {
+        font-weight: 200;
+    }
+    
+    label {
+        font-size: 0.8rem;
+    }
+
+    input {
+        width: 100%;
+        font-size: 0.5rem;
+    }
+
+    .botao-entrar {
+        width: 70%;
+    }
+
+
 }
